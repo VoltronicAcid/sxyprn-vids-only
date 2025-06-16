@@ -21,5 +21,12 @@ const SETTING_KEY = "vidsOnly";
             GM.setValue(SETTING_KEY, checkbox.checked);
         });
 
+        GM.getValue(SETTING_KEY, true)
+            .then((vidSetting) => {
+                if (checkbox.checked !== vidSetting) {
+                    checkbox.click();
+                }
+            })
+            .catch((err) => console.error(err));
     });
 })();
