@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        SxyPrn Vids Only
+// @name        SxyPrn Vids Only Setting
 // @description Automatically click the vids only checkbox
 // @author      VoltronicAcid
 // @version     1.0
