@@ -1,4 +1,4 @@
-# Sexy Porn - Remember Vids Only
+# Sexy Porn - Remember Vids Only Setting
 
 Automatically click the vids only checkbox if you have previously clicked it.
 
