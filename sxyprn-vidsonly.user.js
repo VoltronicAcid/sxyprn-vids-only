@@ -18,7 +18,7 @@ const SETTING_KEY = "vidsOnly";
         console.clear();
         console.log(checkbox);
         checkbox.addEventListener("click", () => {
-            GM.setValue(SETTING_KEY, checkbox.checked).then(() => console.log("Value set to:\t", checkbox.checked));
+            GM.setValue(SETTING_KEY, checkbox.checked);
         });
 
     });
