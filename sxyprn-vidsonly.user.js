@@ -2,7 +2,7 @@
 // @name        SxyPrn Vids Only
 // @description Automatically click the vids only checkbox
 // @author      VoltronicAcid
-// @version     0.1
+// @version     1.0
 // @homepageURL https://github.com/VoltronicAcid/sxyprn-vids-only
 // @match       https://sxyprn.com/blog/all/*
 // @run-at      document-idle
@@ -16,7 +16,8 @@ const SETTING_KEY = "vidsOnly";
 (() => {
     waitForKeyElements("label.vocontainer > input[type=checkbox]", (checkbox) => {
         checkbox.addEventListener("change", () => {
-            GM.setValue(SETTING_KEY, checkbox.checked);
+            GM.setValue(SETTING_KEY, checkbox.checked)
+                .catch((err) => console.error(err));
         });
 
         GM.getValue(SETTING_KEY, true)
