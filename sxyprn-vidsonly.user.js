@@ -15,9 +15,7 @@ const SETTING_KEY = "vidsOnly";
 
 (() => {
     waitForKeyElements("label.vocontainer > input[type=checkbox]", (checkbox) => {
-        console.clear();
-        console.log(checkbox);
-        checkbox.addEventListener("click", () => {
+        checkbox.addEventListener("change", () => {
             GM.setValue(SETTING_KEY, checkbox.checked);
         });
 
