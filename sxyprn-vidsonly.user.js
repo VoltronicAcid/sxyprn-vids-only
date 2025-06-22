@@ -1,9 +1,11 @@
 // ==UserScript==
-// @name        SxyPrn Vids Only Setting
+// @name        SexyPorn - Vids Only Setting
 // @description Automatically click the vids only checkbox
 // @author      VoltronicAcid
 // @version     1.0
 // @homepageURL https://github.com/VoltronicAcid/sxyprn-vids-only
+// @supportURL  https://github.com/VoltronicAcid/sxyprn-vids-only/issues
+// @downloadURL https://github.com/VoltronicAcid/sxyprn-vids-only/raw/refs/heads/main/sxyprn-vidsonly.user.js
 // @match       https://sxyprn.com/blog/all/*
 // @run-at      document-idle
 // @grant       GM.getValue
