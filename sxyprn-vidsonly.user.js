@@ -10,7 +10,6 @@
 // @match       https://sxyprn.com/blog/all/*
 // ==/UserScript==
 
-
 (() => {
     "use strict";
     const settingKey = "vidsOnly";
